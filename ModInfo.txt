@@ -1,0 +1,1 @@
+BetterItemHoming makes items fly towards the nearest player when they drop, rather than a random player in range.
