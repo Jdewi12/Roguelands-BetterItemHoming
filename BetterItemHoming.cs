@@ -16,9 +16,13 @@ namespace BetterItemHoming
             logger.Log(text);
         }
 
-        protected override void Initialize()
+        protected override void PrePatch()
         {
             logger = base.Logger;
+        }
+
+        protected override void Initialize()
+        {
             Log("Gadget Initialised");
         }
     }
